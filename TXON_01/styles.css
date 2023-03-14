@@ -46,7 +46,6 @@ ul {
 }
 
 .main {
-    /* background-image:url('bg_2.jpg'); */
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center center;
@@ -56,7 +55,6 @@ ul {
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    /* background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgba(255,255,255,.5)); */
 }
 .main .background {
     position:absolute;
@@ -73,7 +71,6 @@ ul {
     color:#353839;
 }
 .main_subtitle {
-    /* color:white; */
     position:relative;
     top:200px;
     font-size:1.3rem;
@@ -115,15 +112,8 @@ ul {
     display:flex;
     justify-content:space-around;
     align-items:center;
-    /* background-image:linear-gradient(to right,#EFDECD,#E3DAC9,#F5F5DC); */
-    /* background:#b8a89a; */
-    /* background:#c9c4b8; */
     background:transparent;
     padding-top:98px;
-    /* background-image:linear-gradient(to right,rgba(0,0,0.7),rgba(0,0,0,.3)),url('https://i0.wp.com/closetfulofclothes.com/wp-content/uploads/2015/09/nyfw-street-style-fall-fashion-fall-coats-coats-as-jackets-fashion-hack-via-racked.jpg?fit=900%2C600&ssl=1&resize=1280%2C720');
-    background-repeat:no-repeat;
-    background-size:cover;
-    opacity:0.9; */
 }
 .products_box {
     width:400px; 
@@ -134,16 +124,12 @@ ul {
     overflow:hidden;
     position:relative;
 }
-/* .products_box:hover img{
-    opacity:.7;
-} */
 .products_box:hover {
     transform:scale(1.05);
 }
 .products_image {
     width:100%;
     height:90%;
-    /* height:90%; */
     border-radius:5px 5px 0 0;
     position:absolute;
     left:0;top:0;right:0;
@@ -157,24 +143,20 @@ ul {
 }
 
 .footer {
-    /* background:rgb(51,49,49); */
-    /* background:#8b8589; */
-    /* background:rgb(201, 196, 184); */
     color:#2A3439;
     display:flex;
     justify-content:center;
     align-items:center;
     padding:200px 0;
     height:calc(100vh - 98px);
-    /* background-image:url('https://rdacustica.com/wp-content/uploads/2018/12/Contact-us-background.jpg') ;
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size:cover; */
 }
 .contact_icon {
     display:inline-block;
     width:100%;
     font-size:4em;
+}
+.contact_icon:hover {
+    transform:scale(1.1);
 }
 .contact_icon_container {
     text-align:center;
