@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--Custom CSS File-->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!--This is the header section-->
+    <header>
+        <div class="logo">
+            Port<span>folio</span>
+        </div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!--This is the header section-->
+    
+    <!--This is the home section-->
+    <section id="home">
+        <div class="home_text">
+            <div>Hello, My name is Raghav Sharma</div>
+            <div>&amp; I am a <span class="large_crimson">Web Development Enthusiast</span></div>
+        </div>
+        <div class="home_img">
+            <img src="./home_image.jpg" alt="Raghav">
+        </div>
+    </section>
+    <!--This is the home section-->
+
+    <!--This is the about section-->
+    <section id="about">
+        <div class="about_img">
+            <img src="./about_bg.jpg" alt="Technologies">
+        </div>
+        <div class="about-me">
+            <div>
+                I am currently pursuing my Bachelors degree in
+                Computer Engineering from International Institute 
+                of Information Technology, Pune.
+            </div>
+
+            <br><br>
+
+            <div>
+                I am a Web Development and Design enthusiast who is 
+                continuously exploring the world of Web Technology.
+            </div>
+
+            <br><br>
+
+            <div>
+                I have been working with front-end frameworks such as 
+                React and Bootstrap to create robust and responsive
+                Single Page Applications.
+            </div>
+
+            
+        </div>
+    </section>
+    <!--This is the about section-->
+
+    <!--This is the skills section-->
+    <section id="skills">
+        <div>
+            <i class='bx bxl-html5' style="color:rgb(255, 89, 0);"></i>
+            <div class="label">HTML</div>
+            <div class="description">
+                HTML stands for HyperText Markup Language.
+                HTML is the standard markup language for creating Web Pages.
+                It makes use of elements to define the markup of the page.
+            </div>
+            <div class="percentage html">90%</div>
+        </div>
+        <div>
+            <i class='bx bxl-css3' style="color:dodgerblue;"></i>
+            <div class="label">CSS</div>
+            <div class="description">
+                CSS is the acronym of &apos;Cascading Syle Sheets&apos;.
+                It is the language for describing the presentation of Web pages,
+                including colors,layout, and fonts.
+            </div>
+            <div class="percentage css">75%</div>
+        </div>
+        <div>
+            <i><img src="./js.png" alt="" style="width:50px;"></i>
+            <div class="label">JavaScript</div>
+            <div class="percentage js">70%</div>
+            <div class="description">
+                JavaScript is a scripting language that enables you to create dynamically
+                updating content, control multimedia, animate images, and pretty much everything else.
+            </div>
+        </div>
+        <div>
+            <i class='bx bxl-react' style="color:rgb(48, 97, 171);background-color: rgb(30,30,30);"></i>
+            <div class="label">React</div>
+            <div class="percentage react">60%</div>
+            <div class="description">
+                React is a JavaScript-based UI development library.
+                It makes use of reusable components and is used to 
+                create Single Page Applications.
+            </div>
+        </div>
+        <div>
+            <i class='bx bxl-bootstrap' style="color:mediumslateblue;"></i>
+            <div class="label">Bootstrap</div>
+            <div class="description">
+                Bootstrap is an open source front-end development framework for
+                the creation of web apps.It is designed to enable responsive
+                development of mobile-first web apps.
+            </div>
+            <div class="percentage bootstrap">50%</div>
+        </div>
+        <div>
+            <i class='bx bx-data' style="color:rgb(51,49,49);"></i>
+            <div class="label">SQL</div>
+            <div class="description">
+                SQL is a query language which has been designed to communicate with databases.
+                It is used to query relational databases and is one of the most demanded languages 
+                in the industry.
+            </div>
+            <div class="percentage sql">55%</div>
+        </div>
+    </section>
+    <!--This is the skills section-->
+
+    <!--This is the contact section-->
+    <section id="contact">
+        <form action="" class="contact_form">
+            <h3 class="form_title">Contact Me</h3>
+            <input type="text" placeholder="Your name..." class="placeholder_animation">
+            <input type="email" placeholder="Your email..." class="placeholder_animation">
+            <textarea rows="15" placeholder="Enter your message..."></textarea>
+            <input type="submit" value="Send" onclick="validate()">
+        </form>
+        <div class="contact_info">
+            <div class="linked_in">
+                <a href="https://www.linkedin.com/in/raghav-sharma-445249232/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <div class="instagram">
+                <a href="https://www.instagram.com/sharmaraghav6879/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                
+            </div>
+            <div class="facebook">
+                <a href="https://www.facebook.com/profile.php?id=100069151002488" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+            </div>
+        </div>
+    </section>
+    <!--This is the contact section-->
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
